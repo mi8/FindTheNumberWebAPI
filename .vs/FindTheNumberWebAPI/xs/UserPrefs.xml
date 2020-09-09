@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{D94951C8-EEE0-4FDE-8389-DD6D2A35E068}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/TheNumberController.cs">
+    <Files>
+      <File FileName="Controllers/TheNumberController.cs" Line="15" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FindTheNumberWebAPI" expanded="True">
+            <Node name="FindTheNumberWebAPI" expanded="True" selected="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.FindTheNumberWebAPI PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
