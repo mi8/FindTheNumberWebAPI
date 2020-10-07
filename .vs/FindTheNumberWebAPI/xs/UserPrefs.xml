@@ -1,15 +1,18 @@
 ﻿<Properties StartupConfiguration="{D94951C8-EEE0-4FDE-8389-DD6D2A35E068}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/TheNumberController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/TryResult.cs">
     <Files>
-      <File FileName="Controllers/TheNumberController.cs" Line="15" Column="30" />
+      <File FileName="Controllers/TheNumberController.cs" Line="29" Column="168" />
+      <File FileName="Models/TryResult.cs" Line="2" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FindTheNumberWebAPI" expanded="True">
-            <Node name="FindTheNumberWebAPI" expanded="True" selected="True">
+            <Node name="FindTheNumberWebAPI" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="TryResult.cs" selected="True" />
+              </Node>
               <Node name="Properties" expanded="True" />
             </Node>
           </Node>
@@ -19,7 +22,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.FindTheNumberWebAPI PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

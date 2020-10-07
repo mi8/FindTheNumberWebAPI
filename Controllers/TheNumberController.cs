@@ -5,6 +5,14 @@ using System;
 
 namespace FindTheNumberWebAPI.Controllers
 {
+    public enum OkResult
+    {
+        Smaller,
+        Bigger
+    }
+
+
+
     [ApiController]
     [Route("api/[controller]")]
     public class TheNumberController : ControllerBase
@@ -26,7 +34,7 @@ namespace FindTheNumberWebAPI.Controllers
                 if (tryCount == 20)
                 {
                     ResetNumbers();
-                    return this.StatusCode(StatusCodes.Status205ResetContent, "You reached 20 tries without find The Number => Modify your algorithm and try again !");
+                    return this.StatusCode(StatusCodes.Status205ResetContent, "You reached 20 tries without find The Number => You should Modify your algorithm and try again !");
                 }
 
                 return CompareNumbers(number);
@@ -41,16 +49,16 @@ namespace FindTheNumberWebAPI.Controllers
         {
             if (theNumber < number)
             {
-                return Ok(new TryResult { Result = "Smaller", TryNumber = ++tryCount});
+                return Ok(new TryResult { Result = OkResult.Smaller.ToString(), TryNumber = ++tryCount });
             }
             else if (theNumber > number)
             {
-                return Ok(new TryResult { Result = "Bigger", TryNumber = ++tryCount });
+                return Ok(new TryResult { Result = OkResult.Bigger.ToString(), TryNumber = ++tryCount });
             }
             else
             {
                 theNumber = 0;
-                return this.Accepted(new TryResult { Result = "Your Algorithm wins ! Congratulations", TryNumber = ++tryCount});
+                return this.Accepted(new TryResult { Result = "Your Algorithm success ! Congratulations", TryNumber = ++tryCount });
             }
         }
 
