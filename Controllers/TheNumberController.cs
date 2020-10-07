@@ -58,7 +58,7 @@ namespace FindTheNumberWebAPI.Controllers
             else
             {
                 theNumber = 0;
-                return this.Accepted(new TryResult { Result = "Your Algorithm success ! Congratulations", TryNumber = ++tryCount });
+                return this.Accepted(new TryResult { Result = "Your Algorithm succeeds ! Congratulations", TryNumber = ++tryCount });
             }
         }
 

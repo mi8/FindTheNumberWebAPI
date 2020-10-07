@@ -16,3 +16,4 @@
 /Users/amaury/Dev/FindTheNumberWebAPI/obj/Release/netcoreapp3.1/FindTheNumberWebAPI.dll
 /Users/amaury/Dev/FindTheNumberWebAPI/obj/Release/netcoreapp3.1/FindTheNumberWebAPI.pdb
 /Users/amaury/Dev/FindTheNumberWebAPI/obj/Release/netcoreapp3.1/FindTheNumberWebAPI.genruntimeconfig.cache
+/Users/amaury/Dev/FindTheNumberWebAPI/obj/Release/netcoreapp3.1/FindTheNumberWebAPI.csprojAssemblyReference.cache
